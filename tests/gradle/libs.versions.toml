@@ -1,0 +1,10 @@
+[versions]
+junit = "5.11.3"
+selenide = "7.4.2"
+webDriverManager = "5.9.2"
+
+[libraries]
+junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+selenide = { module = "com.codeborne:selenide", version.ref = "selenide" }
+webDriverManager = { module = "io.github.bonigarcia:webdrivermanager", version.ref = "webDriverManager" }
+
